@@ -22,11 +22,10 @@ job("$basePath/static-method-example1") {
     }
 }
 
-job("$basePath/static-method-example2") {
+// job("$basePath/static-method-example2") {
 
-    steps {
-        sh "ls -la"
-  //      StepsUtil.proxiedGradle delegate, 'clean test'
-    }
-}
+//     steps {
+//         StepsUtil.proxiedGradle delegate, 'clean test'
+//     }
+// }
 
