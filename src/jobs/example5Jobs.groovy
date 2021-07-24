@@ -1,4 +1,4 @@
-import com.dslexample.util.StepsUtil
+//import com.dslexample.util.StepsUtil
 
 String basePath = 'example5'
 
@@ -25,7 +25,8 @@ job("$basePath/static-method-example1") {
 job("$basePath/static-method-example2") {
 
     steps {
-        StepsUtil.proxiedGradle delegate, 'clean test'
+        sh "ls -la"
+  //      StepsUtil.proxiedGradle delegate, 'clean test'
     }
 }
 
