@@ -1,4 +1,4 @@
-import com.dslexample.builder.GradleCiJobBuilder
+import main/groovy/com/dslexample/builder/GradleCiJobBuilder.groovy
 
 String basePath = 'example7'
 List developers = ['dev1@example.com', 'dev2@example.com']
